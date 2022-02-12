@@ -1,4 +1,41 @@
 body {
     background-color: black;
-
+    margin-left: 16px;
 }
+
+p {
+    color: white;
+}
+
+#search {
+    border-color: rgb(47, 51, 54);
+    background-color: darkgray;
+    border-radius: 24px;
+    margin-right: 12px;
+}
+
+::placeholder {
+    color: white;
+    margin-left: 6px;
+}
+
+.wd-selected-tab {
+    color: rgb(29,161,242);
+    border-bottom: 5px solid rgb(29,161,242);
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 16px;
+}
+
+
+
