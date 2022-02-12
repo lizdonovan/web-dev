@@ -1,6 +1,8 @@
 body {
     background-color: black;
     margin-left: 16px;
+    border-right: 2px solid rgb(47, 51, 54);
+    border-left: 2px solid rgb(47, 51, 54);
 }
 
 p {
@@ -24,17 +26,39 @@ p {
     border-bottom: 5px solid rgb(29,161,242);
 }
 
-ul li {
+nav ul li {
     list-style-type: none;
     display: inline;
 }
 
-ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 15px;
     font-family: sans-serif;
     padding: 16px;
+}
+
+.wd-suggested-posts {
+    padding-top: 20px;
+}
+
+.wd-post {
+    border-top: 2px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+ul li h4 {
+    color: white;
+    font-family: sans-serif;
 }
 
 
