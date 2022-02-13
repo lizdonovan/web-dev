@@ -51,7 +51,7 @@ nav ul li a {
 
 ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(110, 118, 125);
     font-family: sans-serif;
     font-size: 13px;
 }
@@ -59,6 +59,17 @@ ul li a {
 ul li h4 {
     color: white;
     font-family: sans-serif;
+}
+
+.author {
+    color: white;
+    font-size: 15px;
+}
+
+.post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
 }
 
 
