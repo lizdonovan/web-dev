@@ -38,12 +38,6 @@ nav ul li a {
     padding-top: 20px;
 }
 
-.wd-post {
-    border-top: 2px solid rgb(47, 51, 54);
-    border-bottom: 1px solid rgb(47, 51, 54);
-    padding: 12px;
-}
-
 ul li a {
     text-decoration: none;
     color: rgb(110, 118, 125);
@@ -56,10 +50,6 @@ ul li h4 {
     font-family: sans-serif;
 }
 
-.author {
-    color: white;
-    font-size: 15px;
-}
 
 .post-image {
     width: 100px;
@@ -68,4 +58,9 @@ ul li h4 {
 }
 
 
-
+.wd-post {
+    list-style-type: none;
+    border-top: 2px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding: 12px;
+}

@@ -16,3 +16,10 @@ body {
 .wd-post-list {
     list-style-type: none;
 }
+
+.author {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
