@@ -34,3 +34,14 @@ body {
 .wd-float-done {
     clear: both;
 }
+
+.wd-post {
+    list-style-type: none;
+    border-top: 2px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding: 12px;
+}
+
+.wd-gray {
+    color: rgb(47,51,54);
+}
