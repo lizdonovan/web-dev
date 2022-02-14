@@ -45,3 +45,17 @@ body {
 .wd-gray {
     color: rgb(47,51,54);
 }
+
+.text-gray {
+    color: rgb(110, 118, 125)
+}
+
+.wd-border-radius {
+    border-radius: 16px;
+}
+
+.wd-icon {
+    height: 48px;
+    width: 48px;
+    color: white;
+}
