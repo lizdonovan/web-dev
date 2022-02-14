@@ -35,4 +35,14 @@ h2 {
     color: white;
 }
 
+.wd-relative60-50 {
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+
+.wd-padding12 {
+    padding: 12px;
+}
+
 
