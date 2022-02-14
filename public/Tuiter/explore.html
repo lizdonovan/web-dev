@@ -3,12 +3,18 @@
 
     <link href="css/global.css" rel="stylesheet"/>
     <link href="css/explore.css" rel="stylesheet"/>
+
+    <script src="https://kit.fontawesome.com/77638bfe67.js" crossorigin="anonymous"></script>
+
     <title>Explore</title>
 </head>
 <body>
 
     <input id="search" type="text" placeholder="Search Tuiter"/>
     <!--gear icon for explore-settings.html-->
+    <a href="explore-settings.html">
+        <i class="fa-solid fa-gear"></i>
+    </a>
 
     <nav>
         <ul>
@@ -34,14 +40,24 @@
                 <a href="">28k Tuits</a>
             </li>
             <li class="wd-post">
-                <a href="" class="author">The New York Times</a>
-                <h4>Black Lives Matter</h4>
-                <img src="bml.jpg" class="post-image">
+                <div>
+                    <div class="wd-float-left">
+                        <a href="" class="author">The New York Times</a>
+                        <h4>Black Lives Matter</h4>
+                    </div>
+                    <img src="bml.jpg" class="post-image wd-float-right">
+                    <div class="wd-float-done"></div>
+                </div>
             </li>
             <li class="wd-post">
-                <a href="">COVID-19</a>
-                <h4>Mask Regulations in Massachusetts</h4>
-                <img src="ppe.jpeg" class="post-image">
+                <div>
+                    <div class="wd-float-left">
+                        <a  href="">COVID-19</a>
+                        <h4>Mask Regulations in Massachusetts</h4>
+                    </div>
+                    <img src="ppe.jpeg" class="post-image wd-float-right">
+                    <div class="wd-float-done"></div>
+                </div>
             </li>
             <li class="wd-post">
                 <a href="">Economics</a>
@@ -49,9 +65,14 @@
                 <a href="">89 Tuits</a>
             </li>
             <li class="wd-post">
-                <a href="" class="author">Boston Globe</a>
-                <h4>This is news to us</h4>
-                <img src="news.jpg" class="post-image">
+                <div>
+                    <div class="wd-float-left">
+                        <a href="" class="author">Boston Globe</a>
+                        <h4>This is news to us</h4>
+                    </div>
+                    <img src="news.jpg" class="post-image wd-float-right">
+                    <div class="wd-float-done"></div>
+                </div>
             </li>
         </ul>
     </section>

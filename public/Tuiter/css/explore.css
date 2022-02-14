@@ -64,3 +64,10 @@ ul li h4 {
     border-bottom: 1px solid rgb(47, 51, 54);
     padding: 12px;
 }
+
+
+.fa-gear {
+    color: white;
+    border-right: 12px;
+    float: right;
+}

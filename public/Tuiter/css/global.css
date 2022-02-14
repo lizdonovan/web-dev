@@ -23,3 +23,14 @@ body {
     font-size: 15px;
 }
 
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-done {
+    clear: both;
+}
