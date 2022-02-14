@@ -45,4 +45,24 @@ h2 {
     padding: 12px;
 }
 
+.wd-post-icons {
+    list-style: none;
+}
+
+.wd-post-icons li {
+    display: inline;
+}
+
+.wd-post-icons a {
+    text-decoration: none;
+}
+
+.wd-post-icons i {
+    margin-right:12px;
+}
+
+.wd-selected-post-icon {
+    color: red;
+}
+
 
