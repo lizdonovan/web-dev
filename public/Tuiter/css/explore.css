@@ -1,4 +1,6 @@
-
+body {
+    color: #212429;
+}
 
 p {
     color: white;
@@ -66,3 +68,4 @@ ul li h4 {
     border-right: 12px;
     float: right;
 }
+
