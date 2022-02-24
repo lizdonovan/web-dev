@@ -14,3 +14,23 @@ li button {
 .wd-border-radius {
     border-radius: 16px;
 }
+
+/*
+reference: https://webdesignerwall.com/wdw-snippet/bootstrap-4-text-input-with-search-icon
+*/
+.search .formStuff {
+    padding-left: 2.375rem;
+}
+
+.search .feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}

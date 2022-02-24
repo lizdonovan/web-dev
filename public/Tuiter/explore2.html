@@ -11,11 +11,11 @@
 
 <body>
 
-    <div class="container">
+    <div class="container mt-2">
         <div class="row">
             <div class="col-2">
                 <nav>
-                    <ul class="list-group">
+                    <ul class="list-group mb-2">
                         <li class="list-group-item"><a href="home.html"><i class="fa-brands fa-twitter"></i></a></li>
                         <li class="list-group-item"><a href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
                         <li class="list-group-item active"><a href="explore.html"><i class="fa-solid fa-hashtag"></i>Explore</a></li>
@@ -26,12 +26,18 @@
                         <li class="list-group-item"><a href="profile.html"><i class="fa-solid fa-user"></i>Profile</a></li>
                         <li class="list-group-item"><a href="more.html"><i class="fa-solid fa-ellipsis"></i>More</a></li>
                     </ul>
-                    <button class="btn btn-primary wd-border-radius">Tweet</button>
+                    <button class="btn btn-primary wd-border-radius w-100">Tweet</button>
                 </nav>
             </div>
 
             <div class="col-6">
-                <input class="w-75 wd-border-radius" id="search" type="text" placeholder="Search Tuiter"/>
+
+                <div class="input-group search">
+                    <div class="input-group-prepend feedback">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                    <input class="w-75 border-right-0 wd-border-radius mb-2 formStuff" id="search" type="text" placeholder="Search Tuiter"/>
+                </div>
 
                 <a href="explore-settings.html">
                     <i class="fa-solid fa-gear"></i>
