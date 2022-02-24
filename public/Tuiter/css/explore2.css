@@ -1,5 +1,13 @@
+body {
+    background-color: black;
+}
+
+i {
+    color: white;
+}
+
 nav a {
-    color: #212429;
+    color: white;
     text-decoration: none;
 }
 
@@ -16,3 +24,23 @@ li button {
 }
 
 
+#active {
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(110, 118, 125);
+}
+
+input {
+    background-color: #282c34;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+.override-bs-active {
+
+    border-bottom: 5px solid rgb(29,161,242);
+}
