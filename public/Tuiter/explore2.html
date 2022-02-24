@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/explore2.css" rel="stylesheet"/>
+
+    <script src="https://kit.fontawesome.com/77638bfe67.js" crossorigin="anonymous"></script>
+
+    <title>Explore</title>
+</head>
+
+<body>
+
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-2">
+                <nav>
+                    <ul class="list-group mb-2">
+                        <li class="list-group-item bg-transparent"><a href="home.html"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="list-group-item bg-transparent"><a href="home.html"><i class="fa-solid fa-house"></i><span class="d-none d-xl-block">Home</span></a></li>
+                        <li id="active" class="list-group-item bg-transparent"><a href="explore.html"><i class="fa-solid fa-hashtag"></i><span class="d-none d-xl-block">Explore</span></a></li>
+                        <li class="list-group-item bg-transparent"><a href="messages.html"><i class="fa-solid fa-envelope"></i><span class="d-none d-xl-block">Messages</span></a></li>
+                        <li class="list-group-item bg-transparent"><a href="bookmarks.html"><i class="fa-solid fa-bookmark"></i><span class="d-none d-xl-block">Bookmarks</span></a></li>
+                        <li class="list-group-item bg-transparent"><a href="lists.html"><i class="fa-solid fa-list"></i><span class="d-none d-xl-block">Lists</span></a></li>
+                        <li class="list-group-item bg-transparent"><a href="profile.html"><i class="fa-solid fa-user"></i><span class="d-none d-xl-block">Profile</span></a></li>
+                        <li class="list-group-item bg-transparent"><a href="more.html"><i class="fa-solid fa-ellipsis"></i><span class="d-none d-xl-block">More</span></a></li>
+                    </ul>
+                    <button class="btn btn-primary wd-border-radius w-100">Tweet</button>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-6">
+
+                <div>
+
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input class="w-75 border-right-0 mb-2 wd-border-radius" id="search" type="text" placeholder="Search Tuiter"/>
+
+
+                    <a href="explore-settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
+
+                </div>
+
+
+
+                <ul class="nav nav-tabs mb-2">
+                    <li class="nav-item"><a class="nav-link bg-transparent active" href="">For you</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="">Trending</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="">News</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="">Sports</a></li>
+                    <li class="nav-item d-sm-none d-md-block"><a class="nav-link d-sm-none d-md-block text-white" href="">Entertainment</a></li>
+                </ul>
+
+                <div class="card text-white">
+                    <img  src="images/spacexship.jpg">
+                    <div class="card-img-overlay d-flex align-items-end">
+                        <h2>SpaceX's Starship</h2>
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-white">
+                    <div class="card-body">
+
+                        <img src="images/React.jpg" alt="react js logo" width="100" class="float-end">
+
+                        <p class="text-white">Web Development</p>
+                        <p class="fw-bold text-white">ReactJS - 2hr</p>
+                        <p class="fw-bold text-white">
+                            React.js is a component based front end library
+                            that makes it very easy to build Single Page Applications
+                            or SPAs
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-white">
+                    <div class="card-body">
+
+                        <img src="images/javascript.png" alt="react js logo" width="100" class="float-end">
+
+                        <p class="text-white">Web Development</p>
+                        <p class="fw-bold text-white">ReactJS - 2hr</p>
+                        <p class="fw-bold text-white">
+                            React.js is a component based front end library
+                            that makes it very easy to build Single Page Applications
+                            or SPAs
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-white">
+                    <div class="card-body">
+
+                        <img src="images/jquery.png" alt="react js logo" width="100" class="float-end">
+
+                        <p class="text-white">Web Development</p>
+                        <p class="fw-bold text-white">ReactJS - 2hr</p>
+                        <p class="fw-bold text-white">
+                            React.js is a component based front end library
+                            that makes it very easy to build Single Page Applications
+                            or SPAs
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="card bg-transparent border-white">
+                    <div class="card-body">
+
+                        <img src="images/nodejs.jpeg" alt="react js logo" width="100" class="float-end">
+
+                        <p class="text-white">Web Development</p>
+                        <p class="fw-bold text-white">ReactJS - 2hr</p>
+                        <p class="fw-bold text-white">
+                            React.js is a component based front end library
+                            that makes it very easy to build Single Page Applications
+                            or SPAs
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-4 list-group d-none d-lg-block d-xl-block">
+                <ul>
+                    <li class="list-group-item bg-transparent text-white">Who to follow</li>
+                    <li class="list-group-item bg-transparent">
+                        <div class="d-flex flex-row justify-content-between">
+                            <img src="images/java.jpg" alt="java logo" width="50" class="rounded-circle ">
+                            <p class="text-white">
+                                Java<br>
+                                @java
+                            </p>
+                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-transparent">
+                        <div class="d-flex flex-row justify-content-between">
+                            <img src="images/relativity.jpeg" alt="java logo" width="50" class="rounded-circle">
+                            <p class="text-white">
+                                Relativity Space<br>
+                                @relativityspace
+                            </p>
+                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-transparent">
+                        <div class="d-flex flex-row justify-content-between">
+                            <img src="images/virgin-logo.png" alt="java logo" width="50" class="rounded-circle">
+                            <p class="text-white">
+                                Virgin Galactic<br>
+                                @virgingalactic
+                            </p>
+                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-transparent">
+                        <div class="d-flex flex-row justify-content-between">
+                            <img src="images/nasa.jpg" alt="java logo" width="50" class="rounded-circle">
+                            <p class="text-white">
+                                NASA<br>
+                                @NASA
+                            </p>
+                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-transparent">
+                        <div class="d-flex flex-row justify-content-between">
+                            <img src="images/tesla.png" alt="java logo" width="50" class="rounded-circle">
+                            <p class="text-white">
+                                Tesla<br>
+                                @Tesla
+                            </p>
+                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>

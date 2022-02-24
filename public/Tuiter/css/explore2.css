@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+i {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a i {
+    margin-right: 5px;
+}
+
+li button {
+    float:right;
+}
+
+.wd-border-radius {
+    border-radius: 16px;
+}
+
+
+#active {
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(110, 118, 125);
+}
+
+input {
+    background-color: #282c34;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+.override-bs-active {
+
+    border-bottom: 5px solid rgb(29,161,242);
+}
