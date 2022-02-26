@@ -206,3 +206,34 @@ console.log(greeting1);
 const loggedIn2 = false;
 const greeting2 = `Logged in: ${loggedIn2 ? "Yes" : "No"}`;
 console.log(greeting2);
+
+
+// Writing to the DOM
+
+
+
+
+
+const init = () => {
+    console.log('Hello world from jQuery');
+    /* do the rest of the lab work here */
+    const bindById = $('#bind-by-id');
+    const bindByClass = $('.bind-by-class');
+    console.log('Binding to DOM');
+    console.log(bindById);
+    console.log(bindByClass);
+
+    const changeStyle = $('#change-style');
+    const changeStyle2 = $('.change-style');
+    changeStyle.css('color', 'red');
+    changeStyle2.css('color', 'blue');
+
+    console.log('Get and set attributes');
+    const getIdAttr = $("#get-id-attr");
+    const id = getIdAttr.attr('id');
+    console.log(id);
+
+
+}
+$(init);
+
