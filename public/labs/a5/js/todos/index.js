@@ -1,4 +1,4 @@
-import "./TodoList.js";
+import TodoList from "./todoList";
 
 $('#wd-todo').append(`
     <div class="container">
