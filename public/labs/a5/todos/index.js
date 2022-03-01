@@ -1,4 +1,4 @@
-import TodoList from "./todoList";
+import TodoList from "./TodoList.js";
 
 $('#wd-todo').append(`
     <div class="container">
@@ -6,4 +6,3 @@ $('#wd-todo').append(`
         ${TodoList()}
     </div>
 `);
-
