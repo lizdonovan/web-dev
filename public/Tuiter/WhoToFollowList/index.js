@@ -4,6 +4,7 @@ import who from "./who.js"
 const WhoToFollowList = () => {
     return (`
             <ul class="list-group">
+                <li>Who to follow</li>
             <!-- continue here -->
             ${
         who.map(who => {
