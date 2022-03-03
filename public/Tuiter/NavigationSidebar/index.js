@@ -31,7 +31,7 @@ const NavigationSidebar = () => {
                     <i class="fa-solid fa-ellipsis"></i>More</a>   
             </div>
             <div class="d-grid mt-2">
-                <a href="tweet.html" class="btn btn-primary btn-block rounded-pill w-100">Tweet</a>
+                <a href="" class="btn btn-primary btn-block rounded-pill w-100">Tweet</a>
             </div>
     `);
 }
