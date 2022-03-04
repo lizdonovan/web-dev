@@ -23,20 +23,11 @@ const ExploreComponent = () => {
                 <li class="nav-item d-sm-none d-md-block"><a class="nav-link d-sm-none d-md-block text-white" href="">Entertainment</a></li>
            </ul>
            <!-- image with overlaid text -->
-           <div class="card bg-transparent border-white">
-                <div class="card-body">
-
-                    <img src="images/React.jpg" alt="react js logo" width="100" class="float-end">
-
-                    <p class="text-white">Web Development</p>
-                    <p class="fw-bold text-white">ReactJS - 2hr</p>
-                    <p class="fw-bold text-white">
-                       React.js is a component based front end library
-                       that makes it very easy to build Single Page Applications
-                       or SPAs
-                    </p>
-
-                </div>
+           <div class="card text-white">
+                    <img  src="../../images/spacexship.jpg">
+                    <div class="card-img-overlay d-flex align-items-end">
+                        <h2>SpaceX's Starship</h2>
+                    </div>
            </div>
            ${PostSummaryList()}
     `);
