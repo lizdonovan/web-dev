@@ -5,10 +5,10 @@ const WhoToFollowListItem = who => {
                         <div class="d-flex flex-row justify-content-between">
                             <img src="${who.avatarIcon}" alt="avatar icon" width="50" class="rounded-circle ">
                             <p class="text-white">
-                                ${who.username}<br>
-                                ${who.handle}
+                                ${who.userName} <br>
+                                @${who.handle}
                             </p>
-                            <button class="btn btn-primary wd-border-radius">Follow</button>
+                            <button class="btn btn-primary btn-block rounded-pill w-25 h-25">Follow</button>
                         </div>
                     </li>  
     `);
