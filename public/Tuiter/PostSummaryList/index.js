@@ -1,7 +1,7 @@
 import post from "./post.js";
-import PostSummaryItem from "./PostSummaryItem";
+import PostSummaryItem from "./PostSummaryItem.js";
 
-const PostSummaryList = post => {
+const PostSummaryList = () => {
 
     return(`
         <ul>
