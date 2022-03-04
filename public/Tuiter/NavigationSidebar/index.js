@@ -7,10 +7,10 @@ const NavigationSidebar = () => {
             <!-- continue the rest of the list -->
                 <!-- Home -->
                 <a class="list-group-item bg-light fg-color-white" href="">
-                    <i class="fa-solid fa-house">Home</i></a>
+                    <i class="fa-solid fa-house"></i>Home</a>
                 <!-- Explore -->
                 <a class="list-group-item fg-color-white active" href="">
-                    <i class="fa-solid fa-hashtag">Explore</i></a>
+                    <i class="fa-solid fa-hashtag"></i>Explore</a>
                 <!-- Notifications -->
                 <a class="list-group-item bg-light fg-color-white" href="">
                     <i class="fa-solid fa-bell"></i>Notifications</a>
