@@ -10,7 +10,7 @@ const WhoToFollowListItem = who => {
                             </p>
                             <button class="btn btn-primary btn-block rounded-pill w-25 h-25">Follow</button>
                         </div>
-                    </li>  
+          </li>  
     `);
 }
 export default WhoToFollowListItem;

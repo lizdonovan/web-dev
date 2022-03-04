@@ -1,4 +1,4 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
             <div class="list-group">
                 <!-- Twitter bird -->
@@ -6,10 +6,10 @@ const NavigationSidebar = () => {
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
                 <!-- Home -->
-                <a class="list-group-item bg-light fg-color-white" href="">
+                <a class="list-group-item bg-light fg-color-white" href="../HomeScreen/home.html">
                     <i class="fa-solid fa-house"></i>Home</a>
                 <!-- Explore -->
-                <a class="list-group-item fg-color-white active" href="">
+                <a class="list-group-item fg-color-white active" href="../ExploreScreen/explore.html">
                     <i class="fa-solid fa-hashtag"></i>Explore</a>
                 <!-- Notifications -->
                 <a class="list-group-item bg-light fg-color-white" href="">
