@@ -13,6 +13,14 @@ const PostItem = (post) => {
                         </p>
 
                         <img scr="${post.imageQ}" alt="tuit image" width="50">
+                        
+                        <div class="justify-content-between">
+                            <i class="fa-regular fa-comment"></i> 345
+                            <i class="fa-regular fa-retweet"></i> 333
+                            <i class="fa-regular fa-heart"></i> 888
+                            <i class="fa-regular fa-share-from-square"></i>         
+                   
+                        </div>
 
                     </div>
             </div>
