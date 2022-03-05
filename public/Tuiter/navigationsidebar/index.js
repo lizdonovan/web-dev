@@ -10,10 +10,10 @@ const NavigationSidebar = (active) => {
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
                 <!-- Home -->
-                <a id="home" class="list-group-item bg-light fg-color-white" href="../HomeScreen/home.html">
+                <a id="home" class="list-group-item bg-light fg-color-white" href="../homescreen/home.html">
                     <i class="fa-solid fa-house"></i>Home</a>
                 <!-- Explore -->
-                <a id="explore" class="list-group-item fg-color-white" href="../ExploreScreen/explore.html">
+                <a id="explore" class="list-group-item fg-color-white" href="../explorescreen/explore.html">
                     <i class="fa-solid fa-hashtag"></i>Explore</a>
                 <!-- Notifications -->
                 <a class="list-group-item bg-light fg-color-white" href="">

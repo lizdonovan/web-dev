@@ -1,6 +1,6 @@
-import NavigationSidebar from "../../NavigationSidebar/index.js";
-import PostSummaryList from "../../PostSummaryList";
-import PostList from "../../PostList";
+import NavigationSidebar from "../../navigationsidebar/index.js";
+import PostSummaryList from "../../postsummarylist";
+import PostList from "../../postlist";
 
 
 (function ($) {
