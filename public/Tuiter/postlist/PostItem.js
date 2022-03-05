@@ -12,7 +12,7 @@ const PostItem = (post) => {
                             ${post.tuit}
                         </p>
 
-                        <img scr="${post.imageQ}" alt="tuit image" width="50">
+                        <img src="${post.imageQ}" alt="tuit image" width="50" class="w-100">
                         
                         <div class="justify-content-between">
                             <i class="fa-regular fa-comment"></i> 345
