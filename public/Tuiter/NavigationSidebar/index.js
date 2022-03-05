@@ -1,6 +1,7 @@
 const NavigationSidebar = (active) => {
 
-
+    const addActive = $(active);
+    addActive.addClass("active");
 
     return(`
             <div class="list-group">
@@ -9,10 +10,10 @@ const NavigationSidebar = (active) => {
                     <i class="fab fa-twitter"></i></a>
             <!-- continue the rest of the list -->
                 <!-- Home -->
-                <a id="" class="list-group-item bg-light fg-color-white" href="../HomeScreen/home.html">
+                <a id="home" class="list-group-item bg-light fg-color-white" href="../HomeScreen/home.html">
                     <i class="fa-solid fa-house"></i>Home</a>
                 <!-- Explore -->
-                <a id="" class="list-group-item fg-color-white" href="../ExploreScreen/explore.html">
+                <a id="explore" class="list-group-item fg-color-white" href="../ExploreScreen/explore.html">
                     <i class="fa-solid fa-hashtag"></i>Explore</a>
                 <!-- Notifications -->
                 <a class="list-group-item bg-light fg-color-white" href="">
