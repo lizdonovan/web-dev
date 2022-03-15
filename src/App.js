@@ -1,9 +1,16 @@
 import logo from './logo.svg';
+import './vendors/bootstrap/css/bootstrap.min.css';
+import './vendors/fontawesome/css/all.min.css';
+
+
 import './App.css';
 
 function App() {
   return (
-    <h1>Hello Wolrd!</h1>
+      <div className="container">
+        <h1>Hello World!</h1>
+      </div>
+
   );
 }
 
