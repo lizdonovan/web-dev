@@ -6,17 +6,21 @@ import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 
-
 import './App.css';
+
+import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
   return (
-      <div className="container">
-          <HelloWorld/>
-          <Labs/>
-          <Tuiter/>
-
-      </div>
+      <BrowserRouter>
+          <div className="container">
+              <Routes>
+                  <Route path="/hello" element={<HelloWorld />}/>
+                  <Route path="/labs" element={<Labs />}/>
+                  <Route path="/tuiter" element={<Tuiter />}/>
+              </Routes>
+          </div>
+      </BrowserRouter>
 
   );
 }
