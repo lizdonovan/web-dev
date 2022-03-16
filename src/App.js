@@ -8,16 +8,16 @@ import Tuiter from "./components/tuiter";
 
 import './App.css';
 
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
       <BrowserRouter>
           <div className="container">
               <Routes>
-                  <Route path="/hello" element={<HelloWorld />}/>
-                  <Route path="/labs" element={<Labs />}/>
-                  <Route path="/tuiter" element={<Tuiter />}/>
+                  <Route path='/hello' element={<HelloWorld/>}/>
+                  <Route path="/labs" element={<Labs/>}/>
+                  <Route path="/tuiter" element={<Tuiter/>}/>
               </Routes>
           </div>
       </BrowserRouter>
