@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import Classes from "./classes";
+import Styles from "./styles";
 
 const Labs = () => {
     return(
@@ -14,6 +15,7 @@ const Labs = () => {
                 Tuiter
             </Link>
 
+            <Styles/>
             <Classes/>
 
         </>
