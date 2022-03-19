@@ -1,7 +1,6 @@
 import React from "react";
 
-const
-    Labs = () => {
+const Labs = () => {
     return(
         <h1>Labs!</h1>
     )
