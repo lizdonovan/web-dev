@@ -1,9 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-import NavigationSidebar from "./navigationsidebar";
-import WhoToFollowList from "./whotofollow";
-import PostSummaryList from "./postsummarylist";
+import Explorescreen from "./explore-screen/explorescreen";
 
 const Tuiter = () => {
     return(
@@ -16,9 +14,7 @@ const Tuiter = () => {
                 Labs
             </Link>
 
-            <NavigationSidebar active="home"/>
-            <WhoToFollowList/>
-            <PostSummaryList/>
+            <Explorescreen/>
 
         </>
 
