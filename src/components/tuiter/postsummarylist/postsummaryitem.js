@@ -14,9 +14,9 @@ const PostSummaryItem = (
                 <div className={`card bg-light border-white`}>
                     <div className={`card-body`}>
                         <img src={post.image} alt="logo" width="100" className={`float-end`}/>
-                            <p>{post.topic}</p>
-                            <p className={`fw-bold `}>{post.userName} - {post.time}</p>
-                            <p>
+                            <p className={'text-white'}>{post.topic}</p>
+                            <p className={`fw-bold text-white`}>{post.userName} - {post.time}</p>
+                            <p className={`fw-bold text-white`}>
                                 {post.title}
                             </p>
                     </div>
