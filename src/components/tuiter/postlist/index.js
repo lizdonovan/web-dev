@@ -1,7 +1,7 @@
 import React from "react";
 
 import posts from "./posts.json"
-import PostItem from "./PostItem";
+import PostItem from "./postitem";
 
 const PostList = () => {
 

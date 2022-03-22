@@ -9,16 +9,16 @@ const NavigationSidebar = (
         <>
             <div className="list-group">
 
-                <a className={`list-group-item fg-color-white {active === 'tuiter' ? 'active' : ''}`} href="/">
+                <a className={"list-group-item fg-color-white " + (active === 'tuiter' ? 'active' : '' )} href="/">
                     <i className={`fab fa-twitter`}/></a>
 
 
-                <a id="home" className={`list-group-item fg-color-white {active === 'home' ? 'active' : ''}`}
-                   href={`../homescreen/home.html`}>
+                <a id="home" className={"list-group-item fg-color-white " + (active === 'home' ? 'active' : '') }
+                   href={`/tuiter/home`}>
                     <i className={`fa-solid fa-house`}/>Home</a>
 
-                <a id="explore" className={`list-group-item fg-color-white {active === 'explore' ? 'active' : ''}`}
-                   href={`../explorescreen/explore.html`}>
+                <a id="explore" className={"list-group-item fg-color-white " + (active === 'explore' ? 'active' : '' )}
+                   href={`/tuiter/explore`}>
                     <i className={`fa-solid fa-hashtag`}/>Explore</a>
 
                 <a className={`list-group-item fg-color-white {active === 'notifications' ? 'active' : ''}`} href={`../explorescreen/explore.html`}>
