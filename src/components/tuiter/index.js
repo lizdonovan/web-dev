@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import Explorescreen from "./explore-screen/explorescreen";
+import HomeScreen from "./home-screen/home";
 
 const Tuiter = () => {
     return(

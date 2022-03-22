@@ -9,34 +9,34 @@ const NavigationSidebar = (
         <>
             <div className="list-group">
 
-                <a className={`list-group-item fg-color-white ${active === 'tuiter' ? 'active' : ''}`} href="/">
+                <a className={`list-group-item fg-color-white {active === 'tuiter' ? 'active' : ''}`} href="/">
                     <i className={`fab fa-twitter`}/></a>
 
 
-                <a id="home" className={`list-group-item fg-color-white ${active === 'home' ? 'active' : ''}`}
+                <a id="home" className={`list-group-item fg-color-white {active === 'home' ? 'active' : ''}`}
                    href={`../homescreen/home.html`}>
                     <i className={`fa-solid fa-house`}/>Home</a>
 
-                <a id="explore" className={`list-group-item fg-color-white ${active === 'explore' ? 'active' : ''}`}
+                <a id="explore" className={`list-group-item fg-color-white {active === 'explore' ? 'active' : ''}`}
                    href={`../explorescreen/explore.html`}>
                     <i className={`fa-solid fa-hashtag`}/>Explore</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'notifications' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'notifications' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-bell`}/>Notifications</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'messages' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'messages' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-envelope`}/>Messages</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'bookmarks' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'bookmarks' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-bookmark`}/>Bookmarks</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'lists' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'lists' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-list`}/>Lists</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'profile' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'profile' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-user`}/>Profile</a>
 
-                <a className={`list-group-item fg-color-white ${active === 'more' ? 'active' : ''}`} href="">
+                <a className={`list-group-item fg-color-white {active === 'more' ? 'active' : ''}`} href="">
                     <i className={`fa-solid fa-ellipsis`}/>More</a>
             </div>
             <div className={`d-grid mt-2`}>

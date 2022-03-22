@@ -6,6 +6,8 @@ import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
+import HomeScreen from "./components/tuiter/home-screen/home";
+import ExploreScreen from "./components/tuiter/explore-screen/explorescreen";
 
 import './App.css';
 
@@ -22,9 +24,13 @@ function App() {
                   <Route path="/"
                          exact={true}
                          element={<Labs/>}/>
-                  <Route path="/tuiter"
+                  <Route path="/tuiter/home"
                          exact={true}
                          element={<Tuiter/>}/>
+                  <Route path="/tuiter/home"
+                         element={<HomeScreen/>}/>
+                  <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+
               </Routes>
           </div>
       </BrowserRouter>
