@@ -6,7 +6,7 @@ import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
-import HomeScreen from "./components/tuiter/home-screen/home";
+import HomeScreen from "./components/tuiter/home-screen";
 import ExploreScreen from "./components/tuiter/explore-screen/explorescreen";
 
 import './App.css';
