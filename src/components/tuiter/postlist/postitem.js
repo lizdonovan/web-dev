@@ -20,7 +20,7 @@ const PostItem = (
                     <div className="card-body">
                         <img src={post.avatarIcon} alt="image avatar" width="50" className="rounded-circle"/>
 
-                            <p><b>{post.userName}</b> @${post.handle} - ${post.time}</p>
+                            <p><b>{post.userName}</b> @{post.handle} - {post.time}</p>
                             <p className="text-white">
                                 {post.tuit}
                             </p>

@@ -24,12 +24,15 @@ function App() {
                   <Route path="/"
                          exact={true}
                          element={<Labs/>}/>
-                  <Route path="/tuiter/home"
+                  <Route path="/tuiter"
                          exact={true}
                          element={<Tuiter/>}/>
                   <Route path="/tuiter/home"
+                         exact={true}
                          element={<HomeScreen/>}/>
-                  <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+                  <Route path="/tuiter/explore"
+                         exact={true}
+                         element={<ExploreScreen/>}/>
 
               </Routes>
           </div>

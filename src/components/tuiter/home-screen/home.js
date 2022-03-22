@@ -3,8 +3,6 @@ import React from "react";
 import NavigationSidebar from "../navigationsidebar";
 import PostSummaryList from "../postsummarylist/index";
 import PostSummaryItem from "../postsummarylist/postsummaryitem";
-import ExploreComponent from "../explore-screen/explorecomponent";
-import WhoToFollowList from "../whotofollow";
 
 
 const HomeScreen = () => {
@@ -12,15 +10,15 @@ const HomeScreen = () => {
         <>
             <div className="row mt-2">
                 <div className="col-2 col-md-2 col-lg-1 col-xl-2">
-                    ${NavigationSidebar("home")}
+                    {NavigationSidebar("home")}
                 </div>
 
                 <div className="col-10 col-md-6">
-                    ${PostSummaryItem()}
+                    {PostSummaryItem()}
                 </div>
 
                 <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                    ${PostSummaryList()}
+                    {PostSummaryList()}
                 </div>
             </div>
         </>
