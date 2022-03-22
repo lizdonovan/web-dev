@@ -10,8 +10,8 @@ const PostSummaryItem = (
     }) => {
     return(
         <>
-            <li>
-                <div className={`card bg-light border-white`}>
+            <li className={'list-group-item border-white mb-3'}>
+                <div className={`card bg-light `}>
                     <div className={`card-body`}>
                         <img src={post.image} alt="logo" width="100" className={`float-end`}/>
                             <p className={'text-white'}>{post.topic}</p>
