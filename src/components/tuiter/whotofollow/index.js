@@ -1,9 +1,9 @@
 import React from "react";
 
 import WhoToFollowListItem from "./whotofollowlistitem";
-import who from "./who.json"
 
-const WhoToFollowList = () => {
+
+const WhoToFollowList = (who) => {
     return (
         <>
             <ul className={`list-group`}>
