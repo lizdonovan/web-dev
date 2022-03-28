@@ -6,6 +6,7 @@ import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoItem from "./todo/todoitem";
 import TodoList from "./todo/todolist";
+import ReduxExamples from "./redux-examples";
 
 const Labs = () => {
     return(
@@ -17,6 +18,8 @@ const Labs = () => {
             <Link to="/tuiter/home">
                 Tuiter
             </Link>
+
+            <ReduxExamples/>
 
             <h2>To Do List</h2>
             <TodoList/>
