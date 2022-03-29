@@ -1,6 +1,6 @@
 import React from "react";
 
-import posts from "../data/posts.json"
+import posts from "../data/tuits.json"
 import PostItem from "./postitem";
 
 const PostList = () => {
