@@ -4,9 +4,10 @@ import HelloReduxExampleComponent
     from "./hello-redux-example-component";
 import hello from "./reducers/hello";
 import todosReducer from "./reducers/todos-reducer";
+import {Provider} from "react-redux";
 import {createStore, combineReducers} from "redux";
 import Todos from "./todos-component";
-import {Provider} from "react-redux";
+
 const reducers =
     combineReducers({hello, todosReducer})
 
