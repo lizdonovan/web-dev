@@ -5,14 +5,14 @@ import PostSummaryList from "../postsummarylist/index";
 import PostItem from "../postlist";
 import WhoToFollowList from "../whotofollow";
 
-
+import TuitList from "../tuit-list";
 
 
 const HomeScreen = () => {
     return(
         <div>
             <h2>Home</h2>
-            <h3>Tuit list</h3>
+            <TuitList/>
         </div>
 
     );
