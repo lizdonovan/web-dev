@@ -1,8 +1,7 @@
 import React from "react";
-import tuits from "./tuits.json";
+import tuits from "tuits.json";
 import TuitListItem
     from "./tuit-list-item";
-import './tuits.css';
 
 const TuitList = () => {
     return (
