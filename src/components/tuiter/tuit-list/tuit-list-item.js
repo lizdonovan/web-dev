@@ -1,30 +1,27 @@
 import React from "react";
+import {useDispatch} from "react-redux";
 
-const TuitListItem = (
-    {
-        post = {
-            "avatarIcon": "../../images/elon.jpg",
-            "userName": "Elon Musk",
-            "handle": "elonmusk",
-            "time": "23h",
-            "tuit": "Amazing show about @Inspiration4x mission!",
-            "image": "../../images/mission.jpg"
-        }
-
-    }) => {
+const TuitListItem = ({tuit}) => {
+    const dispatch = useDispatch();
+    const deleteTuit = (tuit) => {
+      dispatch({type: 'delete-tuit', tuit})
+    };
     return(
 
         <>
             <li>
                 <div className="card bg-light border-white">
                     <div className="card-body">
-                        <img src={post.avatarIcon} alt="image avatar" width="50" className="rounded-circle"/>
+                        <i onClick={() =>
+                        deleteTuit(tuit)}
+                        className="fas fa-remove fa-2x fa-pull-right"/>
+                        <img src={tuit.avatarIcon} alt="image avatar" width="50" className="rounded-circle"/>
 
-                        <p><b>{post.userName}</b> @{post.handle} - {post.time}</p>
+                        <p><b>{tuit.userName}</b> @{tuit.handle} - {tuit.time}</p>
                         <p className="text-white">
-                            {post.tuit}
+                            {tuit.tuit}
                         </p>
-                        <img src={post.image} alt="tuit image" width="50" className="w-100"/>
+                        <img src={tuit.image} alt="tuit image" width="50" className="w-100"/>
 
                         <div className="justify-content-between">
                             <i className="fa-regular fa-comment"/> 345
