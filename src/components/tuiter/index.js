@@ -7,9 +7,10 @@ import NavigationSidebar from "./navigationsidebar";
 import WhoToFollowList from "./whotofollow";
 
 import whoReducer from "./reducers/who-reducer";
+import tuitReducer from "./reducers/tuit-reducer";
 import {createStore} from "redux";
 import {Provider} from "react-redux";
-const store = createStore(whoReducer);
+const store = createStore(whoReducer, tuitReducer);
 
 
 const Tuiter = () => {
