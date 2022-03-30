@@ -8,7 +8,7 @@ const ExploreComponent = () => {
             <div className={`d-flex `}>
                 <span><i className={`fa-solid fa-magnifying-glass`}/></span>
                 <input  id="search" type="text" placeholder="Search Tuiter" className="w-75 border-right-0 mb-2 wd-border-radius" />
-                <i className="fa-solid fa-gear m-2"></i>
+                <i className="fa-solid fa-gear m-2"/>
             </div>
 
 

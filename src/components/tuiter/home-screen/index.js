@@ -7,14 +7,18 @@ import WhoToFollowList from "../whotofollow";
 
 import TuitList from "../tuit-list";
 import WhatsHappening from "../whats-happening";
+import {Outlet} from "react-router-dom";
 
 
 const HomeScreen = () => {
     return(
         <div>
-            <h2>Home</h2>
-            <WhatsHappening/>
-            <TuitList/>
+
+            <div>
+                <WhatsHappening/>
+                <TuitList/>
+            </div>
+
         </div>
 
     );

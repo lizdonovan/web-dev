@@ -14,7 +14,7 @@ const NavigationSidebar = (
 
 
                 <a id="home" className={"list-group-item fg-color-white " + (active === 'home' ? 'active' : '') }
-                   href={`/tuiter/home`}>
+                   href={`/tuiter/`}>
                     <i className={`fa-solid fa-house`}/>Home</a>
 
                 <a id="explore" className={"list-group-item fg-color-white " + (active === 'explore' ? 'active' : '' )}
