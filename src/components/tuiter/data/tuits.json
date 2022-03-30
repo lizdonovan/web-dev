@@ -5,7 +5,8 @@
     "handle": "elonmusk",
     "time": "23h",
     "tuit": "Amazing show about @Inspiration4x mission!",
-    "image": "../../images/mission.jpg"
+    "image": "../../images/mission.jpg",
+    "likes": "98"
   },
   {
     "avatarIcon": "/images/nypost.jpg",
@@ -13,6 +14,7 @@
     "handle": "nypost",
     "time": "23h",
     "tuit": "Grimes seen reading Karl Marx following split with worlds richest man Elon Musk",
-    "image": "/images/grimes.jpg"
+    "image": "/images/grimes.jpg",
+    "likes": "33"
   }
 ]

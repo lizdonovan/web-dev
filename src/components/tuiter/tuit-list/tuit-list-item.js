@@ -1,4 +1,5 @@
 import React from "react";
+import TuitStats from "../tuit-stats";
 import {useDispatch} from "react-redux";
 
 const TuitListItem = ({tuit}) => {
@@ -23,13 +24,8 @@ const TuitListItem = ({tuit}) => {
                         </p>
                         <img src={tuit.image} alt="tuit image" width="50" className="w-100"/>
 
-                        <div className="justify-content-between">
-                            <i className="fa-regular fa-comment"/> 345
-                            <i className="fa-regular fa-retweet"/> 333
-                            <i className="fa-regular fa-heart"/> 888
-                            <i className="fa-regular fa-share-from-square"/>
+                        <TuitStats tuit={tuit}/>
 
-                        </div>
                     </div>
                 </div>
             </li>
