@@ -12,12 +12,12 @@ const TuitStats = ({tuit}) => {
             <div className="row mt-2">
                 <span className="col">
                     <i className="far fa-comment me-1"/>
-                    23
+                    {tuit.comments}
                 </span>
 
                 <span className="col">
                     <i className="far fa-retweet me-1"/>
-                    98
+                    {tuit.retuits}
                 </span>
 
                 <span onClick={likeTuit}
@@ -31,7 +31,7 @@ const TuitStats = ({tuit}) => {
                         !tuit.liked &&
                         <i className="far fa-heart me-1"/>
                     }
-                    {tuit.stats && tuit.stats.likes}
+                    {tuit.likes}
             </span>
 
                 <span className="col">
