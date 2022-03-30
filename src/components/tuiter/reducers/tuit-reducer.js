@@ -1,6 +1,6 @@
-import tuitJson from '../data/tuits.json';
+import tuits from '../data/tuits.json';
 
-const tuitReducer = (state = tuitJson) => {
+const tuitReducer = (state = tuits) => {
     return(state);
 };
 

@@ -8,9 +8,12 @@ import WhoToFollowList from "./whotofollow";
 
 import whoReducer from "./reducers/who-reducer";
 import tuitReducer from "./reducers/tuit-reducer";
-import {createStore} from "redux";
+import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
-const store = createStore(whoReducer, tuitReducer);
+const reducer = combineReducers({
+    tuits: tuitReducer, who: whoReducer
+});
+const store = createStore(reducer);
 
 
 const Tuiter = () => {
