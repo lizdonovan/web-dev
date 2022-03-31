@@ -33,7 +33,7 @@ const NavigationSidebar = (
                 <a className={`list-group-item fg-color-white {active === 'lists' ? 'active' : ''}`} href={`../explorescreen/explore.html`}>
                     <i className={`fa-solid fa-list`}/>Lists</a>
 
-                <a className={`list-group-item fg-color-white {active === 'profile' ? 'active' : ''}`} href={`../explorescreen/explore.html`}>
+                <a className={`list-group-item fg-color-white {active === 'profile' ? 'active' : ''}`} href={`/tuiter/profile`}>
                     <i className={`fa-solid fa-user`}/>Profile</a>
 
                 <a className={`list-group-item fg-color-white {active === 'more' ? 'active' : ''}`} href={`../explorescreen/explore.html`}>
