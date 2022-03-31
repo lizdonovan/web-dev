@@ -25,21 +25,29 @@ const ProfileComponent = ({profile}) => {
 
                     <div className="row">
                         <div className="col">
-                            <i className="fa-solid fa-location-dot"/>
-                            {profile.location}
-                        </div>
+                            <span className="pr-4">
+                                <i className="fa-solid fa-location-dot p-1"/>
+                                {profile.location}
+                            </span>
 
-                        <div className="col">
-                            <i className="fa-solid fa-cake-candles"/>
-                            {profile.dateOfBirth}
-                        </div>
+                            <span className="pr-4">
+                                <i className="fa-solid fa-cake-candles p-1"/>
+                                {profile.dateOfBirth}
+                            </span>
 
-                        <div className="col">
-                            <i className="fa-solid fa-calendar-days"/>
-                            Joined {profile.dateJoined}
+                            <span className="pr-4">
+                                <i className="fa-solid fa-calendar-days p-1"/>
+                                Joined {profile.dateJoined}
+                            </span>
+
                         </div>
 
                     </div>
+
+                    <p className="m-2">
+                        <span className="mr-2"><b>{profile.followingCount}</b> Following</span>
+                        <span><b>{profile.followersCount}</b> Followers</span>
+                    </p>
 
                 </div>
             </div>
