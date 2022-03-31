@@ -11,16 +11,26 @@ const WhatsHappening = () => {
     }
     return (
         <>
-            <textarea value={whatsHappening}
-                      onChange={(event =>
-                      setWhatsHappening(event.target.value))}
-                        className="form-control">
-               What's happening?
+            <div style={{marginBottom: '25px'}}>
+                <textarea value={whatsHappening}
+                          onChange={(event =>
+                              setWhatsHappening(event.target.value))}
+                          className="form-control"
+                          placeholder="What's happening?">
             </textarea>
-            <button onClick={tuitClickHandler}
-            className="btn btn-primary btn-block rounded-pill w-25 h-25">
-                Tuit
-            </button>
+
+                <span>
+                <a href="#"><i className="far fa-image me-3"/></a>
+                <a href="#"><i className="far fa-analytics me-3"/></a>
+                <a href="#"><i className="far fa-smile me-3"/></a>
+                <a href="#"><i className="far fa-calendar me-3"/></a>
+            </span>
+
+                <button onClick={tuitClickHandler}
+                        className="btn btn-primary btn-block fa-pull-right rounded-pill w-25 h-25">
+                    Tuit
+                </button>
+            </div>
         </>
 
     ); }
