@@ -10,8 +10,17 @@ const ProfileComponent = ({profile}) => {
 
                     <img className="card-img-top" src={profile.bannerPicture}/>
 
-                    <div className="row col-3">
-                        <img className="img-thumbnail rounded-circle float-start" src={profile.profilePicture} alt="profile pic" width="80"/>
+                    <div className="row">
+                        <div className="col-3">
+                            <img className="img-thumbnail rounded-circle float-start" src={profile.profilePicture} alt="profile pic" width="80"/>
+                        </div>
+
+                        <div className="col-8 mt-4">
+                            <button className="float-end btn btn-outline-dark">
+                                Edit
+                            </button>
+                        </div>
+
                     </div>
 
                     <p>
