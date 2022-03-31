@@ -10,33 +10,33 @@ const TuitStats = ({tuit}) => {
     return (
         <>
             <div className="row mt-2">
-                <span className="col">
+                <div className="col">
                     <i className="far fa-comment me-1"/>
                     {tuit.comments}
-                </span>
+                </div>
 
-                <span className="col">
+                <div className="col">
                     <i className="fa fa-retweet me-1"/>
                     {tuit.retuits}
-                </span>
+                </div>
 
-                <span onClick={likeTuit}
-                      className="col">
-                {
-                tuit.liked &&
-                <i className="fas fa-heart me-1"
-                   style={{color: 'red'}}/>
-                }
+                <div className="col" onClick={likeTuit}>
+                    {
+                        tuit.liked &&
+                        <i className="fas fa-heart me-2"
+                           style={{color: tuit.liked ? 'red' : "white"}}/>
+                    }
                     {
                         !tuit.liked &&
-                        <i className="far fa-heart me-1"/>
+                        <i className="far fa-heart me-2"/>
                     }
                     {tuit.likes}
-            </span>
+                </div>
 
-                <span className="col">
+                <div className="col">
                     <i className="far fa-share-from-square me-1"/>
-                </span>
+                </div>
+
             </div>
         </>
 
