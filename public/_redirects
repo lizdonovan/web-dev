@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+/tuiter/explore             /src/components/tuiter/explore-screen
+/tuiter/profile            /src/components/tuiter/profile
+
