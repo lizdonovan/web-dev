@@ -5,12 +5,41 @@ const ProfileComponent = ({profile}) => {
         <>
             <div className="card">
                 <div className="card-body">
-                    <h3 className="card-title">{profile.firstName} {profile.lastName}</h3>
-                    <h4 className="card-subtitle">23423 Tuits</h4>
+                    <h5 className="card-title">{profile.firstName} {profile.lastName}</h5>
+                    <h6 className="card-subtitle">23423 Tuits</h6>
 
-                    <p className="card-text">Some quick example text to build
-                        on the card title and make up the bulk of the card's content
+                    <img className="card-img-top" src={profile.bannerPicture}/>
+
+                    <div className="row col-3">
+                        <img className="img-thumbnail rounded-circle float-start" src={profile.profilePicture} alt="profile pic" width="80"/>
+                    </div>
+
+                    <p>
+                        {profile.firstName} {profile.lastName} |
+                        @{profile.handle}
                     </p>
+
+                    <p className="card-text">
+                        {profile.bio}
+                    </p>
+
+                    <div className="row">
+                        <div className="col">
+                            <i className="fa-solid fa-location-dot"/>
+                            {profile.location}
+                        </div>
+
+                        <div className="col">
+                            <i className="fa-solid fa-cake-candles"/>
+                            {profile.dateOfBirth}
+                        </div>
+
+                        <div className="col">
+                            <i className="fa-solid fa-calendar-days"/>
+                            Joined {profile.dateJoined}
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
