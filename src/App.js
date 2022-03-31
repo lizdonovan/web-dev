@@ -33,6 +33,8 @@ function App() {
                                  element={<ExploreScreen/>}/>
                           <Route path="profile"
                                  element={<Profile/>}/>
+                          <Route path="edit"
+                                 element={<Profile/>}/>
 
                       </Route>
                   </Route>
