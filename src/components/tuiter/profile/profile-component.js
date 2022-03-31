@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const ProfileComponent = ({profile}) => {
     return(
@@ -17,7 +18,9 @@ const ProfileComponent = ({profile}) => {
 
                         <div className="col-8 mt-4">
                             <button className="float-end btn btn-outline-dark">
-                                Edit
+                                <Link to="/tuiter/editProfile" className="text-decoration-none">
+                                    Edit
+                                </Link>
                             </button>
                         </div>
 
