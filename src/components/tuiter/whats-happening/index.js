@@ -20,10 +20,10 @@ const WhatsHappening = () => {
             </textarea>
 
                 <span>
-                <a href="#"><i className="far fa-image me-3"/></a>
-                <a href="#"><i className="far fa-analytics me-3"/></a>
-                <a href="#"><i className="far fa-smile me-3"/></a>
-                <a href="#"><i className="far fa-calendar me-3"/></a>
+                <a href="#"><i className="fas fa-image me-3"/></a>
+                <a href="#"><i className="fas fa-analytics me-3"/></a>
+                <a href="#"><i className="fas fa-smile me-3"/></a>
+                <a href="#"><i className="fas fa-calendar me-3"/></a>
             </span>
 
                 <button onClick={tuitClickHandler}

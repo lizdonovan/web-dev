@@ -7,10 +7,10 @@ const tuitReducer = (state = tuits, action) => {
                     if(tuit._id === action.tuit._id) {
                         if(tuit.liked === true) {
                             tuit.liked = false;
-                            tuit.stats.likes--;
+                            tuit.likes--;
                         } else {
                             tuit.liked = true;
-                            tuit.stats.likes++;
+                            tuit.likes++;
                         }
                         return tuit;
                     } else {
