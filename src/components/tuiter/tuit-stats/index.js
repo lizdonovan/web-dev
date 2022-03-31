@@ -16,7 +16,7 @@ const TuitStats = ({tuit}) => {
                 </span>
 
                 <span className="col">
-                    <i className="far fa-retweet me-1"/>
+                    <i className="fa fa-retweet me-1"/>
                     {tuit.retuits}
                 </span>
 

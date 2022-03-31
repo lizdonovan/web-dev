@@ -9,6 +9,7 @@ import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import HomeScreen from "./components/tuiter/home-screen";
 import ExploreScreen from "./components/tuiter/explore-screen/explorescreen";
+import Profile from "./components/tuiter/profile";
 
 import './App.css';
 
@@ -30,6 +31,8 @@ function App() {
                                  element={<HomeScreen/>}/>
                           <Route path="explore"
                                  element={<ExploreScreen/>}/>
+                          <Route path="profile"
+                                 element={<Profile/>}/>
 
                       </Route>
                   </Route>
