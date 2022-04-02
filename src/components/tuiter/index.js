@@ -7,9 +7,14 @@ import NavigationSidebar from "./navigationsidebar";
 import WhoToFollowList from "./whotofollow";
 
 import whoReducer from "./reducers/who-reducer";
-import {createStore} from "redux";
+import tuitReducer from "./reducers/tuit-reducer";
+import profileReducer from "./reducers/profile-reducer";
+import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
-const store = createStore(whoReducer);
+const reducer = combineReducers({
+    tuits: tuitReducer, who: whoReducer, profile: profileReducer
+});
+const store = createStore(reducer);
 
 
 const Tuiter = () => {
@@ -17,7 +22,7 @@ const Tuiter = () => {
         <Provider store={store}>
             <div className="row mt-2">
                 <div className="col-2 col-lg-1 col-xl-2">
-                    <NavigationSidebar/>
+                    <NavigationSidebar active="home"/>
                 </div>
                 <div className="col-10 col-lg-7 col-xl-6">
                     <Outlet/>

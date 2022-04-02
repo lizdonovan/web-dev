@@ -2,17 +2,19 @@ import React from "react";
 
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
-import './vendors/fontawesome/css/all.min.css';
+import './vendors/fontawesome/css/all.css';
 
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import HomeScreen from "./components/tuiter/home-screen";
 import ExploreScreen from "./components/tuiter/explore-screen/explorescreen";
+import Profile from "./components/tuiter/profile";
 
 import './App.css';
 
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import EditProfile from "./components/tuiter/edit-profile";
 
 function App() {
   return (
@@ -30,6 +32,10 @@ function App() {
                                  element={<HomeScreen/>}/>
                           <Route path="explore"
                                  element={<ExploreScreen/>}/>
+                          <Route path="profile"
+                                 element={<Profile/>}/>
+                          <Route path="editProfile"
+                                 element={<EditProfile/>}/>
 
                       </Route>
                   </Route>

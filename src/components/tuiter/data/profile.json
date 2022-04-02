@@ -1,0 +1,17 @@
+[
+  {
+    "firstName": "Liz",
+    "lastName": "Donovan",
+    "handle": "lizdeee",
+    "profilePicture": "/images/liz.jpg",
+    "bannerPicture": "/images/background.png",
+    "bio": "Designer, athlete, computer scientist, coach, dog-walker and more!",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "dateOfBirth": "January 8, 1995",
+    "dateJoined": "April 2013",
+    "followingCount": "888",
+    "followersCount": "1.5k"
+  }
+]
+
