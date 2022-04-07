@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 
+import {updateTuit}
+    from "../../../actions/tuits-actions";
+
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
     const likeTuit = () => {
@@ -28,9 +31,15 @@ const TuitStats = ({tuit}) => {
                     }
                     {
                         !tuit.liked &&
-                        <i className="far fa-heart me-2"/>
+                        <i className="far fa-heart me-2"
+                           style={{color: !tuit.liked ? "white" : "red"}}/>
                     }
                     {tuit.likes}
+                    <i onClick={() => updateTuit(dispatch, {
+                        ...tuit,
+                        likes: tuit.likes + 1
+                        })} className="far fa-thumbs-up ms-2"/>
+
                 </div>
 
                 <div className="col">
