@@ -1,4 +1,4 @@
-import tuitsDao from "../tuits-dao.js"
+import tuitsDao from "../mongoose/tuits-dao.js"
 
 const createTuit = async (req, res) => {
     const newTuit = req.body;
