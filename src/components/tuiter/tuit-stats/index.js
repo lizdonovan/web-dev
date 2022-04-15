@@ -24,22 +24,31 @@ const TuitStats = ({tuit}) => {
                 </div>
 
                 <div className="col" onClick={likeTuit}>
-                    {
-                        tuit.liked &&
-                        <i className="fas fa-heart me-2"
-                           style={{color: tuit.liked ? 'red' : "white"}}/>
-                    }
-                    {
-                        !tuit.liked &&
-                        <i className="far fa-heart me-2"
-                           style={{color: !tuit.liked ? "white" : "red"}}/>
-                    }
-                    {tuit.likes}
+                    {/*{*/}
+                    {/*    tuit.liked &&*/}
+                    {/*    <i className="fas fa-heart me-2"*/}
+                    {/*       style={{color: tuit.liked ? 'red' : "white"}}/>*/}
+                    {/*}*/}
+                    {/*{*/}
+                    {/*    !tuit.liked &&*/}
+                    {/*    <i className="far fa-heart me-2"*/}
+                    {/*       style={{color: !tuit.liked ? "white" : "red"}}/>*/}
+                    {/*}*/}
+
                     <i onClick={() => updateTuit(dispatch, {
                         ...tuit,
                         likes: tuit.likes + 1
                         })} className="far fa-thumbs-up ms-2"/>
+                    {tuit.likes}
+                </div>
 
+                <div className="col">
+                    <i onClick={() => updateTuit(dispatch, {
+                        ...tuit,
+                        likes: tuit.likes - 1,
+                        dislikes: tuit.dislikes + 1
+                    })} className="fa-solid fa-thumbs-down"/>
+                    {tuit.dislikes}
                 </div>
 
                 <div className="col">
