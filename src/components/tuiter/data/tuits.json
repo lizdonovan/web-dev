@@ -8,9 +8,9 @@
     "tuit": "Amazing show about @Inspiration4x mission!",
     "image": "../../images/mission.jpg",
     "liked": "false",
-    "likes": "98",
-    "comments": "123",
-    "retuits": "234"
+    "likes": 98,
+    "comments": 123,
+    "retuits": 234
   },
   {
     "_id": "534",
@@ -21,8 +21,8 @@
     "tuit": "Grimes seen reading Karl Marx following split with worlds richest man Elon Musk",
     "image": "/images/grimes.jpg",
     "liked": "false",
-    "likes": "33",
-    "comments": "45",
-    "retuits": "8"
+    "likes": 33,
+    "comments": 45,
+    "retuits": 8
   }
 ]
