@@ -9,9 +9,9 @@ const PostList = () => {
         <>
             <ul className="list-group">
                 {
-                    posts.map(posts => {
+                    posts.map(post => {
                         return(
-                            <PostItem posts={posts}/>
+                            <PostItem post={post}/>
                         );
                     })
                 }
