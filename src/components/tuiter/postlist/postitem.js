@@ -28,7 +28,7 @@ const PostItem = (
 
                                 <div className="justify-content-between">
                                     <i className="fa-regular fa-comment"/> 345
-                                    <i className="fa-regular fa-retweet"/> 333
+                                    <i className="fa fa-retweet"/> 333
                                     <i className="fa-regular fa-heart"/> 888
                                     <i className="fa-regular fa-share-from-square"/>
 
