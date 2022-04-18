@@ -7,7 +7,7 @@ const PostList = () => {
 
     return(
         <>
-            <ul>
+            <ul className="list-group">
                 {
                     posts.map(posts => {
                         return(

@@ -2,9 +2,7 @@ import React from "react";
 
 import NavigationSidebar from "../navigationsidebar";
 import PostSummaryList from "../postsummarylist/index";
-import PostItem from "../postlist";
-import WhoToFollowList from "../whotofollow";
-
+import PostList from "../postlist";
 
 const HomeScreen = () => {
     return(
@@ -16,7 +14,7 @@ const HomeScreen = () => {
                 </div>
 
                 <div className="col-10 col-md-6">
-                    <PostItem/>
+                    <PostList/>
 
                 </div>
 
