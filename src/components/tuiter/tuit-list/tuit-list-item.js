@@ -20,7 +20,7 @@ const TuitListItem = ({tuit}) => {
                             dispatch, tuit)}/>
                         <img src={tuit.avatarIcon} alt="image avatar" width="50" className="rounded-circle"/>
 
-                        <p><b>{tuit.userName}</b> @{tuit.postedBy.username} - {tuit.time}</p>
+                        <p><b>{tuit.postedBy.username}</b> @{tuit.postedBy.username} - {tuit.time}</p>
                         <p className="text-white">
                             {tuit.tuit}
                         </p>
